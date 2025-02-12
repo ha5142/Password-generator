@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: #27233A;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #EAEFD3;
+    color: black;
+    text-align: center;
+    align-content: center;
+    
+}
+.genertor {
+    height: 20rem;
+    width: 35rem;
+    border: 2px solid black ;
+    margin-top: 7rem;
+    border-radius: 15px;
+    background-color: #505168;
+    
+}
+#password {
+    margin-top: 20px;
+    display: inline;
+    font-size: 1.6rem;
+    padding: 1.2rem;
+    border-radius: 20px;
+    background-color: #DCC48E;
+}
+.action {
+    background-color: #B3C0A4;
+    display: inline;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.action:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
